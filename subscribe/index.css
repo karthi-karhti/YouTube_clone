@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-container{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.heading{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}
+.firstName-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lastName-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.inputName-box{
+    height:2rem;
+    width: 45%;
+}
+.Gender-container{
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.email-container{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5.5%;
+}
+.emailInput-box{
+    height:2rem;
+    width: 45%;
+}
+.dateOfBirth-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.dateOfBirthInput-box{
+    height:2rem;
+    width: 45%;
+}
+
+.submit-button-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addres-container{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.addres-box{
+    height:70% ;
+    width: 45%;
+   
+}
+.submit-button{
+    height: 2.5rem;
+    width:25%;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    border: 0.5px solid black;
+}
+label{
+    font-weight: bold;
+    padding-right: 10%;
+}
+.radio-button{
+    margin-right: 5%;
+    margin-left: 1%;
+}
